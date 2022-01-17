@@ -1,0 +1,27 @@
+.row>*{
+    padding-top: 5px;
+}
+.first-line{
+    background-color: yellow;
+    color: yellow;
+}
+.second-line{
+    background-color: blue;
+    color: blue;
+}
+.thirdth-line{
+    background-color: blue;
+    color: blue;
+}
+.fourth-line{
+    background-color: red;
+    color: red;
+}
+.fifth-line{
+    background-color: red;
+    color: red;
+   
+}
+.row{
+     justify-content: end;
+}
