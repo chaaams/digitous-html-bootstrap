@@ -1,0 +1,45 @@
+.first-line{
+    background-color: yellow;
+    color: yellow;
+}
+.second-line{
+    background-color: blue;
+    color: blue;
+}
+.third-line{
+    background-color: red;
+    color: red;
+}
+    .fourth-line{
+    background-color: green;
+    color: green;
+}
+.fifth-line{
+    background-color: gray;
+    color: gray;
+}
+.sixth-line{
+    background-color: yellow;
+    color: yellow;
+}
+.row.justify-content-end{
+    padding-right:0;
+}
+.seventh-line{
+    background-color: blue;
+    color: blue;
+}
+.row {
+   justify-content: center;
+   
+}
+.col-8{
+    padding-right: 0;
+}
+.col-md-4{
+    background-color: red;
+    color: red;
+}    
+.row>*{
+    padding-top: 5px;
+}
