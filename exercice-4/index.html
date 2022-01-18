@@ -20,8 +20,15 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Team
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Viencent</a></li>
+                    <li><a class="dropdown-item" href="#">Béatrice</a></li>
+                    <li><a class="dropdown-item" href="#">Rosita</a></li>
+                  </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -30,12 +37,39 @@
           </div>
         </div>
       </nav>
+      <div class="alert alert-danger" role="alert">
+        Une erreur serveur est survenue. Veuillez rafraîchir la page ou réessayer plus tard.
+      </div>
       <div class="container first-step">
           <div class="img">
               <img src="./img/eminem.jpg" alt="Photo de Eminem">
               <h3>Slim Shady</h3>
           </div>
               <h1>Hi! My name is!</h1>
+          </div>
+          <div class="container button">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            SignUp Newsletters
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Newsletters</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">Email</span>
+                            <input type="text" class="form-control" placeholder="ex: lala@land.com" aria-label="Username" aria-describedby="addon-wrapping">
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">S'abonner</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
           <div class="container">
               <div class="row">
