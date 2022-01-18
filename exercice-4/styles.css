@@ -1,0 +1,24 @@
+.navbar{
+    color: #2E3338;
+}
+.first-step{
+    background-color: gainsboro;
+    height: 250px;
+}
+img{
+    height: 150px;
+    float: right;
+    border-radius: 50%;
+    padding-bottom: 15px;
+}
+.img{
+    display: inline-block;
+    float:right;
+    padding: 1em;
+}
+h1{
+    padding-top: 1em;
+}
+.row * {
+    padding-top: 1em;
+}
